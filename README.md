@@ -1,2 +1,2 @@
 # scala-challenges
-MY solutions on some scala challenges
+My solutions on some scala challenges
