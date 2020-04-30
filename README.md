@@ -1,2 +1,3 @@
-# scala-challenges
-My solutions on some scala challenges
+# Scala Challenges from hackerrank.com
+
+My solutions on some scala challenges from hackerrank.com
