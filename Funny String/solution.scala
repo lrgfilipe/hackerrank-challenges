@@ -2,7 +2,6 @@ import java.io._
 
 object Solution {
 
-  // Complete the funnyString function below.
   def funnyString(s: String): String = {
     val x = s.map(_.toInt).sliding(2).map{x => (x(0) - x(1)).abs}
     val y = s.reverse.map(_.toInt).sliding(2).map{x => (x(0) - x(1)).abs}
