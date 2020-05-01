@@ -14,7 +14,7 @@ My solutions on some challenges from hackerrank.com
 - Staircase - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Staircase)
 - Plus Minus - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Plus%20Minus)
 - Mini-Max Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mini-Max%20Sum)
-- Birthday Cake Candles - [Scala]()
+- Birthday Cake Candles - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Birthday%20Cake%20Candles)
 
 **Algorithms / Strings**
 - CamelCase -  [Scala](https://github.com/lrgfilipe/hackerrank-challenges/blob/master/easy/CamelCase)
