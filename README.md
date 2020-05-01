@@ -25,7 +25,9 @@ Algorithms / Greedy
 - Mark and Toys - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mark%20and%20Toys)
 - Permuting Two Arrays - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Permuting%20Two%20Arrays)
 
+#### Medium
 
-
+Algorithms / Implementation
+- Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
