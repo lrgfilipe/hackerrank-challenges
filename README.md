@@ -13,6 +13,8 @@ My solutions on some challenges from hackerrank.com
 - Simple Array Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Simple%20Array%20Sum)
 - Staircase - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Staircase)
 - Plus Minus - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Plus%20Minus)
+- Mini-Max Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mini-Max%20Sum)
+- Birthday Cake Candles - [Scala]()
 
 **Algorithms / Strings**
 - CamelCase -  [Scala](https://github.com/lrgfilipe/hackerrank-challenges/blob/master/easy/CamelCase)
