@@ -4,7 +4,7 @@ My solutions on some challenges from hackerrank.com
 
 
 
-### Easy
+## Easy
 
 **Algorithms / Warmup**
 - A Very Big Sum - [Scala](https://github.com/lrgfilipe/hackerrankchallenges/blob/master/easy/A%20Very%20Big%20Sum)
@@ -26,7 +26,7 @@ My solutions on some challenges from hackerrank.com
 - Mark and Toys - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mark%20and%20Toys)
 - Permuting Two Arrays - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Permuting%20Two%20Arrays)
 
-### Medium
+## Medium
 
 **Algorithms / Implementation**
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
