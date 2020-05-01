@@ -34,3 +34,18 @@ My solutions on some challenges from hackerrank.com
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
+
+##  Measuring code execution time in Scala
+```scala
+def time[R](block: => R): R = {
+    val t0 = System.nanoTime()
+    val result = block
+    val t1 = System.nanoTime()
+    println(s"Elapsed time: ${t1 - t0} ns ${(t1-t0) / 1000000} ms ${(t1-t0) / 1000000000} sec")
+    result
+}
+
+var list = time {List.range(1,1000, 1)} // it will show you : Elapsed time: 104000ns
+```
+
+
