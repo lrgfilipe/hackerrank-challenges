@@ -45,7 +45,7 @@ def time[R](block: => R): R = {
     result
 }
 
-var list = time {List.range(1,1000, 1)} // it will show you : Elapsed time: 104000ns
+var list = time {List.range(1,1000, 1)}
 ```
 
 
