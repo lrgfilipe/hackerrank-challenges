@@ -64,11 +64,10 @@ var list = time {List.range(1,1000, 1)}
 ```
 ```python
 # python
-import time
-start = time.time()
-print("hello")
-end = time.time()
-print(end - start)
+import timeit, functools
+t = timeit.Timer(functools.partial(foo, A, B))
+sec = t.timeit(1)
+print("Elapsed time -> ", int(sec * 1000), " milliseconds | ", round(sec,2), " seconds", sep='')
 ```
 
 ####  Generate random string with size N
