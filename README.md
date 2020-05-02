@@ -46,10 +46,11 @@ My solutions on some challenges from hackerrank.com
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
-## Scala - Some utilities
+## Some utilities
 
 ####  Measuring code execution time
 ```scala
+// scala
 def time[R](block: => R): R = {
   val t0 = System.nanoTime()
   val result = block
@@ -60,6 +61,14 @@ def time[R](block: => R): R = {
 }
 
 var list = time {List.range(1,1000, 1)}
+```
+```python
+# python
+import time
+start = time.time()
+print("hello")
+end = time.time()
+print(end - start)
 ```
 
 ####  Generate random string with size N
