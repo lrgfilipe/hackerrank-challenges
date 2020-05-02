@@ -31,6 +31,7 @@ My solutions on some challenges from hackerrank.com
 
 **Algorithms / Sorting**
 - Find the Median - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/sorting/Find%20the%20Median)
+- Closest Numbers - [Scala]()
 
 **Algorithms / Search**
 - Missing Numbers - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Missing%20Numbers)
