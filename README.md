@@ -6,8 +6,8 @@ My solutions on some challenges from hackerrank.com
 
 ## Easy
 
-**Algorithms / Warmup**
-- A Very Big Sum - [Scala](https://github.com/lrgfilipe/hackerrankchallenges/blob/master/easy/A%20Very%20Big%20Sum)
+**Algorithms / Warmup - All done in at least one language**
+- A Very Big Sum - [Scala, Python](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/A%20Very%20Big%20Sum)
 - Compare the Triplets - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Compare%20the%20Triplets)
 - Diagonal Difference - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Diagonal%20Difference)
 - Simple Array Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Simple%20Array%20Sum)
@@ -22,7 +22,7 @@ My solutions on some challenges from hackerrank.com
 - CamelCase -  [Scala](https://github.com/lrgfilipe/hackerrank-challenges/blob/master/easy/CamelCase)
 - Funny String - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Funny%20String)
 - Super Reduced String - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Super%20Reduced%20String)
-
+- Palindrome Index - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Palindrome%20Index)
 
 **Algorithms / Search**
 - Missing Numbers - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Missing%20Numbers)
@@ -41,21 +41,23 @@ My solutions on some challenges from hackerrank.com
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
+## Scala - Some utilities
 
-##  Measuring code execution time
+####  Measuring code execution time
 ```scala
 def time[R](block: => R): R = {
-    val t0 = System.nanoTime()
-    val result = block
-    val t1 = System.nanoTime()
-    println(s"Elapsed time: ${t1 - t0} ns ${(t1-t0) / 1000000} ms ${(t1-t0) / 1000000000} sec")
-    result
+  val t0 = System.nanoTime()
+  val result = block
+  val t1 = System.nanoTime()
+  val diff = t1-t0
+  println(s"Elapsed time: ${diff} ns ${diff / 1000000} ms ${diff / 1000000000} sec")
+  result
 }
 
 var list = time {List.range(1,1000, 1)}
 ```
 
-##  Generate random string with size N
+####  Generate random string with size N
 ```scala
 import scala.util.Random
 def generateRandomString (n: Int): String = {
