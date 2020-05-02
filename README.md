@@ -41,7 +41,7 @@ My solutions on some challenges from hackerrank.com
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
-## Some utilities
+## Scala - Some utilities
 
 ####  Measuring code execution time
 ```scala
