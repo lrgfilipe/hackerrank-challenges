@@ -1,5 +1,10 @@
 # Challenges from hackerrank.com
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/lrgfilipe/hackerrank-challenge)
+![GitHub forks](https://img.shields.io/github/forks/lrgfilipe/hackerrank-challenge?style=social)
+![GitHub stars](https://img.shields.io/github/stars/lrgfilipe/hackerrank-challenge?style=social)
+
 My solutions on some challenges from hackerrank.com
 
 
