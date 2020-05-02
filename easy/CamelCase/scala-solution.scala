@@ -2,6 +2,7 @@ import java.io._
 
 object Solution {
 
+
   def camelcase(s: String): Int = s.count(_.isUpper) + 1
 
   def main(args: Array[String]) {

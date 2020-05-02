@@ -2,8 +2,9 @@
 
 import os
 
-# python has no limit on length of integer so we can just sum them
+# start
 def aVeryBigSum(ar): return sum(ar)
+# end
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

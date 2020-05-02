@@ -2,6 +2,7 @@ import java.io._
 
 object Solution {
 
+  // start
   def aVeryBigSum(ar: Array[Long]): Long = ar.reduce( (a,b) => sum(a.toString, b.toString))
 
   def sum(a: String, b: String, rest: Int = 0, list: List[String] = Nil): Long = {
@@ -10,6 +11,7 @@ object Solution {
     if (f < 10) sum(a dropRight 1, b dropRight 1, 0, f.toString :: list)
     else sum(a dropRight 1, b dropRight 1, f/10, (f%10).toString :: list)
   }
+  // end
 
   def main(args: Array[String]) {
     val stdin = scala.io.StdIn
