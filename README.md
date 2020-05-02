@@ -66,9 +66,10 @@ var list = time {List.range(1,1000, 1)}
 # python
 import timeit, functools
 def my_timeit(*args):
+    n = 5 # n times to run
     t = timeit.Timer(functools.partial(*args))
-    sec = t.timeit(5) # n times to run
-    print("Elapsed time -> ", int(sec * 1000), " milliseconds | ", round(sec,2), " seconds", sep='')
+    sec = t.timeit(n) / n
+    print("Medium call time -> ", int(sec * 1000), " milliseconds | ", round(sec,2), " seconds", sep='')
 
 my_timeit(foo, A, B)
 ```
