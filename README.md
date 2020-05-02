@@ -41,8 +41,9 @@ My solutions on some challenges from hackerrank.com
 - Extra Long Factorials - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/medium/Extra%20Long%20Factorials)
 
 
+## Some utilities
 
-##  Measuring code execution time
+####  Measuring code execution time
 ```scala
 def time[R](block: => R): R = {
     val t0 = System.nanoTime()
@@ -55,7 +56,7 @@ def time[R](block: => R): R = {
 var list = time {List.range(1,1000, 1)}
 ```
 
-##  Generate random string with size N
+####  Generate random string with size N
 ```scala
 import scala.util.Random
 def generateRandomString (n: Int): String = {
