@@ -42,7 +42,7 @@ My solutions on some challenges from hackerrank.com
 
 
 
-##  Measuring code execution time in Scala
+##  Measuring code execution time
 ```scala
 def time[R](block: => R): R = {
     val t0 = System.nanoTime()
@@ -53,6 +53,15 @@ def time[R](block: => R): R = {
 }
 
 var list = time {List.range(1,1000, 1)}
+```
+
+##  Generate random string with size N
+```scala
+import scala.util.Random
+def generateRandomString (n: Int): String = {
+  val x = Random.alphanumeric
+  return x.take(n).mkString
+}
 ```
 
 
