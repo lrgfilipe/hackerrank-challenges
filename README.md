@@ -46,11 +46,12 @@ My solutions on some challenges from hackerrank.com
 ####  Measuring code execution time
 ```scala
 def time[R](block: => R): R = {
-    val t0 = System.nanoTime()
-    val result = block
-    val t1 = System.nanoTime()
-    println(s"Elapsed time: ${t1 - t0} ns ${(t1-t0) / 1000000} ms ${(t1-t0) / 1000000000} sec")
-    result
+  val t0 = System.nanoTime()
+  val result = block
+  val t1 = System.nanoTime()
+  val diff = t1-t0
+  println(s"Elapsed time: ${diff} ns ${diff / 1000000} ms ${diff / 1000000000} sec")
+  result
 }
 
 var list = time {List.range(1,1000, 1)}
