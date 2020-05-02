@@ -7,7 +7,7 @@ My solutions on some challenges from hackerrank.com
 ## Easy
 
 **Algorithms / Warmup - All done in at least one language**
-- A Very Big Sum - [Scala, Python3, Java(8), Javascript(NodeJs)](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/A%20Very%20Big%20Sum)
+- A Very Big Sum - [Scala, Python3, Java 8, Javascript (Node.Js)](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/A%20Very%20Big%20Sum)
 - Compare the Triplets - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Compare%20the%20Triplets)
 - Diagonal Difference - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Diagonal%20Difference)
 - Simple Array Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Simple%20Array%20Sum)
