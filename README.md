@@ -32,7 +32,7 @@ My solutions on some challenges from hackerrank.com
 **Algorithms / Search**
 - Missing Numbers - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Missing%20Numbers)
 - Sherlock and Array - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Sherlock%20and%20Array)
-
+- Ice Cream Parlor - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Ice%20Cream%20Parlor)
 
 **Algorithms / Greedy**
 - Mark and Toys - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mark%20and%20Toys)
