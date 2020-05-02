@@ -29,6 +29,9 @@ My solutions on some challenges from hackerrank.com
 - Super Reduced String - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Super%20Reduced%20String)
 - Palindrome Index - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Palindrome%20Index)
 
+**Algorithms / Sorting**
+- Find the Median - [Scala]()
+
 **Algorithms / Search**
 - Missing Numbers - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Missing%20Numbers)
 - Sherlock and Array - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Sherlock%20and%20Array)
