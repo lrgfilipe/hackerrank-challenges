@@ -6,7 +6,7 @@ My solutions on some challenges from hackerrank.com
 
 ## Easy
 
-**Algorithms / Warmup - DONE**
+**Algorithms / Warmup - All DONE**
 - A Very Big Sum - [Scala, Python](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/A%20Very%20Big%20Sum)
 - Compare the Triplets - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Compare%20the%20Triplets)
 - Diagonal Difference - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Diagonal%20Difference)
