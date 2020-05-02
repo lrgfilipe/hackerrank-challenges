@@ -65,9 +65,12 @@ var list = time {List.range(1,1000, 1)}
 ```python
 # python
 import timeit, functools
-t = timeit.Timer(functools.partial(foo, A, B))
-sec = t.timeit(1)
-print("Elapsed time -> ", int(sec * 1000), " milliseconds | ", round(sec,2), " seconds", sep='')
+def my_timeit(*args):
+    t = timeit.Timer(functools.partial(*args))
+    sec = t.timeit(1)
+    print("Elapsed time -> ", int(sec * 1000), " milliseconds | ", round(sec,2), " seconds", sep='')
+
+my_timeit(foo, A, B)
 ```
 
 ####  Generate random string with size N
