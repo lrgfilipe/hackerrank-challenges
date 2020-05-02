@@ -16,7 +16,7 @@ My solutions on some challenges from hackerrank.com
 - Compare the Triplets - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Compare%20the%20Triplets)
 - Diagonal Difference - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Diagonal%20Difference)
 - Simple Array Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Simple%20Array%20Sum)
-- Staircase - [Scala, Python3, Javascript (Node.Js)](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Staircase)
+- Staircase - [Scala, Python3, Java 8, Javascript (Node.Js)](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Staircase)
 - Plus Minus - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Plus%20Minus)
 - Mini-Max Sum - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Mini-Max%20Sum)
 - Birthday Cake Candles - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Birthday%20Cake%20Candles)
