@@ -30,7 +30,7 @@ My solutions on some challenges from hackerrank.com
 - Palindrome Index - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Palindrome%20Index)
 
 **Algorithms / Sorting**
-- Find the Median - [Scala]()
+- Find the Median - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/sorting/Find%20the%20Median)
 
 **Algorithms / Search**
 - Missing Numbers - [Scala](https://github.com/lrgfilipe/hackerrank-challenges/tree/master/easy/Missing%20Numbers)
